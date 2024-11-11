@@ -1,0 +1,108 @@
+body {
+  background-image: url(./assets/image4.png);
+  width: 100%;
+  max-height: 400px; 
+  overflow-y: auto;  
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-control,
+.form-select,
+button {
+  margin: 10px;
+  padding: 10px;
+  min-width: 150px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.table-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #000;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.table tbody tr{
+  background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.table tbody td {
+  border-top: 1px solid #dee2e6;
+}
+
+.bought {
+  background-color: lightgreen !important;
+}
+
+.action-btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.action-btn.delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.action-btn.toggle {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
